@@ -1,12 +1,26 @@
 # Cool modpack changelog
 
-## Unreleased: server-side tweaks (2026-10-24)
+## V9 (2026-10-24)
 
 ### What changed
 - Server-side tweaks: angled holes, forgiving temperature, gentler Sapper Zombie
 - Changelog and build scripts
+- Keep other people's mod jars out of the repo
+- Sapper Zombie keeps its 60 HP
+- Bandits hit as hard as the gun they carry
+- Bandit bullets hole and break blocks like players' bullets
+- Server resource pack that hides block cracks
+- Mining chips blocks instead of cracking them
+- Bigger chips for softer blocks and better tools
+- Less debris when chipping, so you can see the dent
+- Mining doesn't chip logs, so trees still fall
+- Damaged doors don't hurt you; damaged blocks are called Damaged Block
+- Doors, slabs and stairs aren't chipped; damaged ones turn back when mined
+- Fix server lag; half blocks chip again
+- Damaged slabs, stairs and doors keep their real shape
 
 ### Jars in the pack (our mods and non-CurseForge mods)
+- Updated: bandits-1.0.0.jar
 - Updated: realism-1.0.0.jar
 
 ### Settings changed
@@ -19,7 +33,7 @@
 - config/toughasnails/temperature.toml: extremity_damage_delay 1200 -> 2400
 - config/toughasnails/temperature.toml: extremity_rebound_temperature_change_delay 120 -> 40
 - config/toughasnails/temperature.toml: handheld_temperature_change_delay 200 -> 100
-- config/toughasnails/temperature.toml: near_heat_cool_proximity 10 -> 14
+- config/toughasnails/temperature.toml: near_heat_cool_proximity 10 -> 7
 - config/toughasnails/temperature.toml: on_fire_temperature_change 2 -> 1
 - config/toughasnails/temperature.toml: player_temperature_change_delay 200 -> 400
 - config/toughasnails/temperature.toml: snow_temperature_change -1 -> 0
