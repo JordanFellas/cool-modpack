@@ -47,7 +47,7 @@
 
 [blocks]
 	#The proximity which constitutes near a heat or cool source
-	near_heat_cool_proximity = 14
+	near_heat_cool_proximity = 7
 
 [toggles]
 	#Enable or disable temperature.
