@@ -5,3 +5,4 @@ externals.txt export-ignore
 .gitignore export-ignore
 .gitattributes export-ignore
 *.ps1 text eol=crlf
+server-resourcepack/ export-ignore
