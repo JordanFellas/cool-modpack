@@ -4,7 +4,7 @@
 	#Health points. A regular zombie has 20.
 	# Default: 60.0
 	# Range: 1.0 ~ 1024.0
-	maxHealth = 40.0
+	maxHealth = 60.0
 	#Armor points. A regular zombie has 2, full diamond armor is 20.
 	# Default: 10.0
 	# Range: 0.0 ~ 30.0
