@@ -1,0 +1,17 @@
+{
+  "spawnInDayLight": true,
+  "enableDifficultySystem": true,
+  "hordeSpawning": true,
+  "hordeSpawnDelay": [
+    15,
+    "minute"
+  ],
+  "hordeSpawnChance": 1.0,
+  "randomNumberHordeReinforcements": 0,
+  "hordeNumber": 1,
+  "hordeMemberBonusHealth": 0,
+  "hordeMemberBreakGlass": true,
+  "hordeMemberBreakFence": true,
+  "showHordeSpawningMessage": true,
+  "hordeSpawnDistanceFromPlayer": 60
+}

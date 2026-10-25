@@ -1,0 +1,16 @@
+#The friction defines how much resistance the blood spray particle will encounter in the air. A lower value means the blood spray will go farther.
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+blood_spray_friction = 0.5
+#The maximum lifetime (20 ticks = 1 second) that a blood spatter will remain on screen for.
+# Default: 600
+# Range: 0 ~ 10000
+blood_spatter_lifetime = 600
+#How loud the blood spatters are.
+# Default: 0.75
+# Range: 0.0 ~ 1.0
+blood_spatter_sound_volume = 0.75
+#How large the blood mist produced from projectiles should be.
+# Default: 3
+# Range: 0 ~ 10
+blood_mist_scale = 3

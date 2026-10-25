@@ -1,0 +1,4 @@
+#Phone interface language: AUTO follows Minecraft.
+#Spanish variants use Spanish; all other languages use British English.
+#Allowed Values: AUTO, ENGLISH, SPANISH
+language = "AUTO"

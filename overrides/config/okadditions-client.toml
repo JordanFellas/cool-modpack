@@ -1,0 +1,5 @@
+[misc]
+	#Shows simple Damage Numbers upon attacking any entity. Setting is ignored when hitting a Target Dummy. Default: Disabled
+	showDamageNumbers = false
+	#Show Damage Numbers upon attacking a Target Dummy. Default: Enabled
+	showDamageNumbersDummy = true

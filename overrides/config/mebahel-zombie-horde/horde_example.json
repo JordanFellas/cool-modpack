@@ -1,0 +1,192 @@
+{
+  "hordeCompositions": [
+    {
+      "weight": 8,
+      "dimensions": [
+        "minecraft:overworld"
+      ],
+      "biomes": [],
+      "mobTypes": [
+        {
+          "id": "minecraft:zombie",
+          "weight": 1,
+          "spawnWithWeaponProbability": 0.15,
+          "weapons": [],
+          "spawnWithArmorProbability": 0.0,
+          "armor": {
+            "head": [],
+            "chest": [],
+            "legs": [],
+            "feet": []
+          }
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "dimensions": [
+        "minecraft:overworld"
+      ],
+      "biomes": [],
+      "mobTypes": [
+        {
+          "id": "minecraft:zombie",
+          "weight": 1,
+          "spawnWithWeaponProbability": 1.0,
+          "weapons": [
+            {
+              "itemId": "minecraft:iron_sword",
+              "weight": 3
+            },
+            {
+              "itemId": "minecraft:iron_axe",
+              "weight": 1
+            }
+          ],
+          "spawnWithArmorProbability": 0.65,
+          "armor": {
+            "head": [
+              {
+                "itemId": "minecraft:iron_helmet",
+                "weight": 3
+              },
+              {
+                "itemId": "minecraft:chainmail_helmet",
+                "weight": 1
+              }
+            ],
+            "chest": [
+              {
+                "itemId": "minecraft:iron_chestplate",
+                "weight": 3
+              },
+              {
+                "itemId": "minecraft:chainmail_chestplate",
+                "weight": 1
+              }
+            ],
+            "legs": [
+              {
+                "itemId": "minecraft:iron_leggings",
+                "weight": 3
+              },
+              {
+                "itemId": "minecraft:chainmail_leggings",
+                "weight": 1
+              }
+            ],
+            "feet": [
+              {
+                "itemId": "minecraft:iron_boots",
+                "weight": 3
+              },
+              {
+                "itemId": "minecraft:chainmail_boots",
+                "weight": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "weight": 8,
+      "dimensions": [
+        "minecraft:overworld"
+      ],
+      "biomes": [
+        "minecraft:desert",
+        "minecraft:badlands",
+        "minecraft:eroded_badlands",
+        "minecraft:wooded_badlands"
+      ],
+      "mobTypes": [
+        {
+          "id": "minecraft:husk",
+          "weight": 1,
+          "spawnWithWeaponProbability": 0.15,
+          "weapons": [],
+          "spawnWithArmorProbability": 0.0,
+          "armor": {
+            "head": [],
+            "chest": [],
+            "legs": [],
+            "feet": []
+          }
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "dimensions": [
+        "minecraft:overworld"
+      ],
+      "biomes": [
+        "minecraft:desert",
+        "minecraft:badlands",
+        "minecraft:eroded_badlands",
+        "minecraft:wooded_badlands"
+      ],
+      "mobTypes": [
+        {
+          "id": "minecraft:husk",
+          "weight": 1,
+          "spawnWithWeaponProbability": 1.0,
+          "weapons": [
+            {
+              "itemId": "minecraft:iron_sword",
+              "weight": 3
+            },
+            {
+              "itemId": "minecraft:iron_axe",
+              "weight": 1
+            }
+          ],
+          "spawnWithArmorProbability": 0.65,
+          "armor": {
+            "head": [
+              {
+                "itemId": "minecraft:iron_helmet",
+                "weight": 3
+              },
+              {
+                "itemId": "minecraft:chainmail_helmet",
+                "weight": 1
+              }
+            ],
+            "chest": [
+              {
+                "itemId": "minecraft:iron_chestplate",
+                "weight": 3
+              },
+              {
+                "itemId": "minecraft:chainmail_chestplate",
+                "weight": 1
+              }
+            ],
+            "legs": [
+              {
+                "itemId": "minecraft:iron_leggings",
+                "weight": 3
+              },
+              {
+                "itemId": "minecraft:chainmail_leggings",
+                "weight": 1
+              }
+            ],
+            "feet": [
+              {
+                "itemId": "minecraft:iron_boots",
+                "weight": 3
+              },
+              {
+                "itemId": "minecraft:chainmail_boots",
+                "weight": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

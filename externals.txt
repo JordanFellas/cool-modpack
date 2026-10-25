@@ -1,0 +1,12 @@
+# Mod jars kept out of git: too big for GitHub (over 100 MB), or other people's mods we don't republish here.
+# Format: path | sha1 | size in bytes
+# tools/build-pack.ps1 copies each one from the CurseForge instance (or the folder you give it) into the zip.
+overrides/mods/PresenceFootsteps-1.11.2+1.21.jar | 2e0228905a1e5a2ddecb00d40d764a64a4600a6e | 5694024
+overrides/mods/common-networking-neoforge-1.0.21-1.21.1.jar | f55722a4278997e7ef278f4390a31e848f7beea7 | 26017
+overrides/mods/create_connected-1.3.3-mc1.21.1.jar | 96ae45fa44cd7028a31b9613cb672009e811b145 | 6786783
+overrides/mods/dead_air-1.2.0-beta.jar | 2fa69fc820be409dfa8b0394c528b112cbc39b29 | 913453
+overrides/mods/emiffect-neoforge-2.1.6+mc1.21.1.jar | 0afecce68c1fa9e13ef46d4b20a67f65b19c9d8c | 38160
+overrides/mods/kotlinforforge-5.12.0-all.jar | d10d062caf1aad9aec82d7852f2fee1781735c1f | 7279264
+overrides/mods/player-revive-v3.0-mc1.21.1.jar | 00ca9bdba6c51caa3382f59fdcbffaf4910e8fa2 | 37684
+overrides/mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar | a5ac35ccb902231047709530a5708fb71dc3e3b5 | 202454
+overrides/mods/thinair-1.0.6.jar | 8a9dd5330d38c4f62b9bc63b5819576cb89f67a3 | 205808

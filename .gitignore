@@ -1,0 +1,5 @@
+# Mod jars too big for git (GitHub refuses files over 100 MB). They're listed, with a fingerprint, in
+# externals.txt; tools/build-pack.ps1 takes them from the CurseForge instance when it makes the zip.
+overrides/mods/eeriemusic-*.jar
+# Build output
+/build/

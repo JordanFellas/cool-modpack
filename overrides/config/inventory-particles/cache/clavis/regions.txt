@@ -1,0 +1,6 @@
+clavis:lock_pick	inventory_particles:lock_pick/fallback/standard_0	0	0	8	8
+clavis:lock_pick	inventory_particles:lock_pick/fallback/standard_1	8	0	8	8
+clavis:lock_pick	inventory_particles:lock_pick/fallback/standard_2	16	0	8	8
+clavis:lock_pick	inventory_particles:lock_pick/fallback/standard_3	24	0	8	8
+clavis:lock_pick	inventory_particles:lock_pick/fallback/standard_4	32	0	8	8
+clavis:lock_pick	inventory_particles:lock_pick/fallback/standard_5	40	0	8	8

@@ -1,0 +1,14 @@
+#Enable this debug to view damage types inflicted on entities in the player chat. Useful for determining the exact damage type to add to the BLACKLIST_DAMAGE_SOURCES and BLOOD_MIST_DAMAGE_SOURCES config lists.
+damage_type_debug = false
+#The damage cap for the amount of blood sprays produced per hit.
+# Default: 50
+# Range: 10 ~ 1000
+blood_spray_damage_cap = 50
+#The maximum amount of blood sprays per hit based on the 'Blood Spray Damage Cap'.  The formula is (blood_spray_damage_cap / blood_spray_max_per_hit), which would mean  at default there is an additional blood spray per 5 points of damage upwards to 50.
+# Default: 10
+# Range: 1 ~ 100
+blood_spray_max_per_hit = 10
+#List of the damage sources that will not cause an entity to bleed.
+blacklist_bleed_sources = ["drown", "starve", "dryOut", "freeze", "fellOutOfWorld", "burn", "lava", "hotFloor", "onFire", "inFire"]
+#List of damage sources that will cause an entity to emit a blood mist when hit.
+blood_mist_damage_sources = ["arrow", "explosion.player", "tacz.bullet", "scguns.bullet"]

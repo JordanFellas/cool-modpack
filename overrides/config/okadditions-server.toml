@@ -1,0 +1,109 @@
+[weapons]
+	#In seconds. Default: 4 seconds
+	# Default: 4
+	# Range: 2 ~ 10
+	flashbangDuration = 4
+	#In ticks. Default: 60 ticks (3 seconds)
+	# Default: 60
+	# Range: 1 ~ 900
+	flashbangUseCooldown = 60
+	#In blocks. Default: 16 blocks
+	# Default: 16
+	# Range: 2 ~ 64
+	flashbangExplosionRange = 16
+	#In ticks. Default: 60 ticks (3 seconds)
+	# Default: 60
+	# Range: 1 ~ 600
+	lightweightShieldUseCooldown = 60
+	#In ticks. Default: 30 ticks (1.5 seconds)
+	# Default: 30
+	# Range: 1 ~ 600
+	lightweightShieldMaxUseTime = 30
+	#Strength of the Dash. Default: 1.05
+	# Default: 1.05
+	# Range: 0.01 ~ 10.0
+	lightweightShieldDashStrength = 1.05
+	#In seconds. Default: 60 seconds
+	# Default: 60
+	# Range: 5 ~ 300
+	paintballGunPaintLifetime = 60
+
+[tools]
+	#In seconds. Default: 60 seconds
+	# Default: 60
+	# Range: 5 ~ 300
+	sprayParticleLifetime = 60
+	#In ticks. Default: 20 ticks (1 second)
+	# Default: 20
+	# Range: 1 ~ 300
+	spotterUseCooldown = 20
+	#In seconds. Default: 5 seconds
+	# Default: 5
+	# Range: 1 ~ 60
+	spotlingLifetime = 5
+	#In decimal percentages 0 to 1. Default: 0.33 (33%)
+	# Default: 0.33
+	# Range: 0.0 ~ 1.0
+	dullPickaxeBaseCobbleChance = 0.33
+	#In decimal percentages 0 to 1. Default: 0.5 (50%)
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	dullPickaxeOreMiningSpeed = 0.5
+	#Can the lasso hook Players?. Default: False
+	lassoHookPlayers = false
+	#Can the lasso hook non-leashables (e.g. hostile mobs)?. Default: False
+	lassoHookNonLeashables = false
+
+[misc]
+	#Default: Yes
+	waterBalloonExtinguishesFire = true
+	#In seconds. Default: 30 seconds
+	# Default: 30
+	# Range: 1 ~ 240
+	energyDrinkDurationSpeed = 30
+	#In seconds. Default: 10 seconds
+	# Default: 10
+	# Range: 0 ~ 60
+	energyDrinkDurationNausea = 10
+	#In ticks. Default: 200 ticks (10 seconds)
+	# Default: 200
+	# Range: 20 ~ 900
+	energyDrinkUseCooldown = 200
+	#In seconds. Default: 30 seconds
+	# Default: 30
+	# Range: 1 ~ 240
+	toolLubricantDuration = 30
+	#In ticks. Default: 200 ticks (10 seconds)
+	# Default: 200
+	# Range: 20 ~ 900
+	toolLubricantUseCooldown = 200
+	#In seconds. NOTE: The peel becomes an item upon despawning. Default: 90 seconds
+	# Default: 90
+	# Range: 1 ~ 600
+	bananaPeelDespawnTime = 90
+	#In seconds. Default: 600 seconds (10 minutes)
+	# Default: 600
+	# Range: 1 ~ 3600
+	angryChipDuration = 600
+	#In ticks. Default: 80 ticks (4 seconds)
+	# Default: 80
+	# Range: 20 ~ 200
+	angryChipUseCooldown = 80
+	#In seconds. Default: 16 blocks
+	# Default: 16
+	# Range: 1 ~ 64
+	angryChipAggroRange = 16
+
+[blocks]
+	#Strength of this tier. Default: 0.75
+	# Default: 0.75
+	# Range: 0.01 ~ 10.0
+	jumpPadForceGold = 0.75
+	#Strength of this tier. Default: 1.0
+	# Default: 1.0
+	# Range: 0.01 ~ 10.0
+	jumpPadForceIron = 1.0
+	#Strength of this tier. Default: 1.25
+	# Default: 1.25
+	# Range: 0.01 ~ 10.0
+	jumpPadForceDiamond = 1.25
