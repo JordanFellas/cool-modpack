@@ -12,6 +12,6 @@
   "hordeMemberBonusHealth": 0,
   "hordeMemberBreakGlass": true,
   "hordeMemberBreakFence": true,
-  "showHordeSpawningMessage": true,
+  "showHordeSpawningMessage": false,
   "hordeSpawnDistanceFromPlayer": 60
 }

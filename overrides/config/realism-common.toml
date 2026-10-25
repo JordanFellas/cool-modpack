@@ -1,0 +1,59 @@
+#Bullet marks left by Vic's Point Blank guns where they don't go through.
+[bulletHoles]
+	#Whether bullets leave marks on the blocks they hit.
+	bulletHoles = true
+	#How long a mark stays before it fades away.
+	# Default: 90
+	# Range: 5 ~ 3600
+	bulletHoleSeconds = 90
+	#Most marks shown at once. The oldest disappear first.
+	# Default: 1000
+	# Range: 10 ~ 5000
+	maxBulletHoles = 1000
+
+#Shooting through walls, Rainbow Six Siege style. Soft blocks (realism:shot_through tag: wood, wool, dirt...)
+#get a real see-through hole on the first hit, and every hit near it tears it wider. Hard blocks (stone, bricks)
+#get holes after a couple of hits on the same spot. Deepslate, metal and the realism:bulletproof tag never break.
+#Bullets never break blocks in spawn protection or claimed land that stops you from breaking blocks.
+[destruction]
+	#Whether bullets make holes in and break blocks at all.
+	bulletsBreakBlocks = true
+	#Hits it takes to shatter glass, panes and ice (realism:shatters tag).
+	# Default: 1
+	# Range: 1 ~ 100
+	shatterHits = 1
+	#Hits on about the same spot before stone or bricks get a hole through them (with a typical rifle round).
+	# Default: 2
+	# Range: 1 ~ 100
+	hardPierceHits = 2
+	#Blocks harder than this only get bullet marks. Stone is 1.5, bricks 2, deepslate 3, iron 5, obsidian 50.
+	#Harder blocks take more hits to hole: hardPierceHits times hardness/2, divided by the guns caliber power.
+	# Default: 100.0
+	# Range: 0.0 ~ 1000.0
+	maxPierceHardness = 100.0
+	#Once this share of a block is shot away, the rest breaks, and anything it held up comes down.
+	# Default: 0.4
+	# Range: 0.05 ~ 1.0
+	breakFraction = 0.4
+	#Hits it takes to break fences and fence gates. Bigger calibers need fewer. (Doors and trapdoors get real holes instead.)
+	# Default: 8
+	# Range: 1 ~ 100
+	thinBlockHits = 8
+	#Whether shot-out blocks drop as items. Off by default: they're splinters now.
+	dropShotBlocks = false
+
+#Wallbanging: bullets carry on through glass, soft blocks and existing holes and hit whoever's behind.
+[wallbang]
+	#Whether bullets go through.
+	wallbang = true
+	#Damage a bullet does after going through. Each block it goes through takes some off.
+	# Default: 8.0
+	# Range: 0.0 ~ 100.0
+	wallbangDamage = 8.0
+
+#Building.
+[building]
+	#Stops players placing a block under their own feet while in the air (jump-and-place towering).
+	#Ladders, scaffolding and vines still work. Creative mode is never affected.
+	noJumpPillaring = false
+	collapse = false
