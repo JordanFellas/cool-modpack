@@ -41,6 +41,14 @@
 	thinBlockHits = 8
 	#Whether shot-out blocks drop as items. Off by default: they're splinters now.
 	dropShotBlocks = false
+	#Whether bullets (and gadgets using this mod) still hole and break blocks for players in adventure mode.
+	#Adventure mode can never mine; turn this on for game modes where only guns and gadgets may wreck walls.
+	adventureBreaks = false
+	#Whether holes follow the angle of the shot, so you can see through them from where it was fired.
+	#Only the server needs the version with this setting. Players whose realism is too old to draw angled holes
+	#still join fine: while any of them is online, holes are cut straight through for everyone instead.
+	#Off: always straight through, like before.
+	angledHoles = true
 
 #Wallbanging: bullets carry on through glass, soft blocks and existing holes and hit whoever's behind.
 [wallbang]
@@ -56,4 +64,10 @@
 	#Stops players placing a block under their own feet while in the air (jump-and-place towering).
 	#Ladders, scaffolding and vines still work. Creative mode is never affected.
 	noJumpPillaring = false
+	#When a block is broken (mined or shot out), built blocks it was holding up fall. Placing blocks never triggers it.
+	#Natural terrain (the realism:natural_terrain tag) always counts as solid ground and never falls.
 	collapse = false
+	#How many blocks sideways (or hanging down) a build can reach from something holding it up before it falls.
+	# Default: 5
+	# Range: 1 ~ 32
+	collapseSpan = 5

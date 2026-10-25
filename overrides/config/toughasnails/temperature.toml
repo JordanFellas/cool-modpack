@@ -1,52 +1,53 @@
-# Cool modpack: friendlier than default. Changes slower, hurts much later, mountains get cold higher up,
-# heat sources work from further away, and you get a grace period after respawning.
+# Cool modpack: super forgiving. Temperature drifts very slowly, hurts only after a long time at an extreme,
+# mountains never get cold, rain/snow/night don't chill you, heat sources reach far, and you get 20 minutes of
+# Climate Clemency every time you respawn.
 [general]
 	#Duration of heating or cooling effects given by consuming items.
-	consumable_effect_duration = 2400
+	consumable_effect_duration = 6000
 	#Number of ticks to delay changing the player's temperature after their temperature changes.
-	temperature_change_delay = 900
+	temperature_change_delay = 2400
 	#Number of ticks to delay changing the player's temperature after their temperature changes when affected by a player-based temperature modifier.
-	player_temperature_change_delay = 200
+	player_temperature_change_delay = 400
 	#The order in which to apply built-in temperature modifiers
 	temperature_modifier_order = ["player_modifiers", "item_modifier", "armor_modifier", "internal_modifier"]
 	#Number of ticks to delay taking damage when icy or hot.
-	extremity_damage_delay = 1200
+	extremity_damage_delay = 2400
 	#Number of ticks to delay changing the player's temperature after their temperature changes from consuming a heating or cooling item.
 	internal_temperature_change_delay = 20
 	#Number of ticks to delay changing the player's temperature after their temperature changes when wearing armor.
 	armor_temperature_change_delay = 50
 	#Number of ticks to delay changing the player's temperature after their temperature changes when holding an item.
-	handheld_temperature_change_delay = 200
+	handheld_temperature_change_delay = 100
 	#Whether or not Climate Clemency should be granted when respawning.
 	climate_clemency_respawning = true
 	#Number of ticks for the duration of Climate Clemency.
-	climate_clemency_duration = 12000
+	climate_clemency_duration = 24000
 	#Number of ticks to delay changing the player's temperature after their temperature changes when rebounding from an extreme temperature.
-	extremity_rebound_temperature_change_delay = 120
+	extremity_rebound_temperature_change_delay = 40
 
 [altitude]
 	#Y level to drop the temperature at when above
-	temperature_drop_altitude = 230
+	temperature_drop_altitude = 320
 	#Y level to rise the temperature at when below
-	temperature_rise_altitude = -40
+	temperature_rise_altitude = -64
 	#Y level above which environmental modifiers are applied
 	environmental_modifier_altitude = 50
 
 [immersion]
 	#Number of ticks a player stays wet for after touching water, rain or snow.
-	wet_ticks = 20
+	wet_ticks = 10
 	#Amount to change the temperature by when in powdered snow.
 	powdered_snow_temperature_change = -1
 	#Amount to change the temperature by when snowing.
-	snow_temperature_change = -1
+	snow_temperature_change = 0
 	#Amount to change the temperature by when wet.
 	wet_temperature_change = 0
 	#Amount to change the temperature by when on fire.
-	on_fire_temperature_change = 2
+	on_fire_temperature_change = 1
 
 [blocks]
 	#The proximity which constitutes near a heat or cool source
-	near_heat_cool_proximity = 10
+	near_heat_cool_proximity = 14
 
 [toggles]
 	#Enable or disable temperature.

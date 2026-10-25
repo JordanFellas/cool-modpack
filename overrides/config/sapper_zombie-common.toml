@@ -1,0 +1,96 @@
+#How tough a Sapper Zombie is. Changes apply to Sapper Zombies that spawn after the change.
+#Cool modpack: softened. Less health and armor, gentler hits, a touch slower.
+[stats]
+	#Health points. A regular zombie has 20.
+	# Default: 60.0
+	# Range: 1.0 ~ 1024.0
+	maxHealth = 40.0
+	#Armor points. A regular zombie has 2, full diamond armor is 20.
+	# Default: 10.0
+	# Range: 0.0 ~ 30.0
+	armor = 5.0
+	#Armor toughness: makes big hits do less damage.
+	# Default: 4.0
+	# Range: 0.0 ~ 20.0
+	armorToughness = 1.0
+	#Damage per hit without a weapon. Its Sapper Axe adds 7 more (a regular zombie does 3).
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	attackDamage = 0.0
+	#How far its punches knock you back.
+	# Default: 1.0
+	# Range: 0.0 ~ 5.0
+	attackKnockback = 0.4
+	#Walking speed. A regular zombie walks at 0.23.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	movementSpeed = 0.18
+	#1.0 means it can't be knocked back at all.
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 0.5
+	#Whether Sapper Zombies catch fire in the sun like regular zombies.
+	burnsInDaylight = false
+
+#Natural spawning in the Overworld, wherever regular zombies spawn. Changes need a world restart.
+#Cool modpack: rare, and alone. Regular zombies are 95, so this is about one Sapper for every 6 or 7 zombies' worth of spawns.
+[spawning]
+	#How often they spawn compared to other monsters. Regular zombies are 95, skeletons and creepers 100. 0 turns natural spawning off.
+	# Default: 100
+	# Range: 0 ~ 1000
+	spawnWeight = 15
+	#Smallest group that spawns together.
+	# Default: 1
+	# Range: 1 ~ 16
+	minGroupSize = 1
+	#Largest group that spawns together.
+	# Default: 2
+	# Range: 1 ~ 16
+	maxGroupSize = 1
+
+#Smashing through blocks when something is in the way of its target.
+#Cool modpack: slower, and only up to stone and wood (iron doors, iron blocks and obsidian keep it out).
+[blockBreaking]
+	#Whether Sapper Zombies break blocks at all. The mobGriefing game rule also has to be on.
+	breakBlocks = true
+	#The hardest block they can break. Stone is 1.5, iron blocks and iron doors 5, obsidian 50.
+	#Blocks in the sapper_zombie:sapper_proof block tag can never be broken.
+	# Default: 20.0
+	# Range: 0.0 ~ 1000.0
+	maxBreakableHardness = 3.0
+	#Break speed multiplier. At 1.0 stone takes 2 seconds and planks 2.5 seconds; 2.0 is twice as fast.
+	# Default: 1.0
+	# Range: 0.05 ~ 100.0
+	breakSpeed = 0.5
+	#Whether broken blocks drop as items.
+	dropBrokenBlocks = true
+
+#Building with cobblestone to reach a target it can't walk to.
+#Cool modpack: it carries a limited stack instead of building forever.
+[building]
+	#Whether Sapper Zombies build: pillar up with cobblestone, bridge gaps, and put ladders up walls when you are more than 6 blocks above.
+	placeBlocks = true
+	#Sapper Zombies never run out of cobblestone.
+	infiniteBlocks = false
+	#How many cobblestone blocks each Sapper Zombie carries. Only used when infiniteBlocks is off.
+	# Default: 32
+	# Range: 0 ~ 1000
+	blockSupply = 12
+
+#Following a player it has been near for a long time, even without seeing them.
+#Cool modpack: it takes a lot longer to lock on.
+[stalking]
+	#Whether Sapper Zombies lock onto a player that stays near them and come after them through anything.
+	stalking = true
+	#Minutes a player has to stay within 50 blocks before a Sapper Zombie locks onto them.
+	# Default: 5
+	# Range: 1 ~ 120
+	stalkMinutes = 15
+	#Play a heartbeat to players hunted by 3 or more zombies. It speeds up as more join in.
+	heartbeat = true
+
+[equipment]
+	#Chance it drops its Sapper Axe when killed by a player (0.085 is the vanilla chance for mob weapons).
+	# Default: 0.085
+	# Range: 0.0 ~ 1.0
+	axeDropChance = 0.15
