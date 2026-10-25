@@ -4,6 +4,7 @@
 
 ### What changed
 - Server-side tweaks: angled holes, forgiving temperature, gentler Sapper Zombie
+- Changelog and build scripts
 
 ### Jars in the pack (our mods and non-CurseForge mods)
 - Updated: realism-1.0.0.jar

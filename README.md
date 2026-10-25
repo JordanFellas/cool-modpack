@@ -3,8 +3,8 @@
 The CurseForge export of the pack (NeoForge 1.21.1), kept in git so every version is saved and the changelog writes itself.
 
 - `manifest.json`: the CurseForge mods (project and file IDs)
-- `overrides/`: our own jars (`overrides/mods`), configs and everything else that ships in the zip
-- `externals.txt`: jars too big for git (eeriemusic, 211 MB). They're taken from the CurseForge instance when the zip is built.
+- `overrides/`: our own mods (`overrides/mods`: realism, sapper_zombie, bandits), configs and everything else that ships in the zip
+- `externals.txt`: the other jars the zip ships with: other people's mods that aren't on CurseForge's list (we don't republish them here) and eeriemusic, which is too big for git. They're taken from the CurseForge instance when the zip is built. When you add one, put a line for it in this file: path, sha1 (`Get-FileHash -Algorithm SHA1`) and size.
 - `CHANGELOG.md`: what changed in each version
 
 Tags `v1`, `v8` and so on are the released versions. V2 to V7 are missing because their zips were gone by the time this repo was made.

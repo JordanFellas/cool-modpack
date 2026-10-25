@@ -1,5 +1,9 @@
-# Mod jars too big for git (GitHub refuses files over 100 MB). They're listed, with a fingerprint, in
-# externals.txt; tools/build-pack.ps1 takes them from the CurseForge instance when it makes the zip.
-overrides/mods/eeriemusic-*.jar
+# Mod jars that aren't ours (other people's mods we don't republish here) or are too big for git (GitHub
+# refuses files over 100 MB). They're listed, with a fingerprint, in externals.txt; tools/build-pack.ps1
+# takes them from the CurseForge instance when it makes the zip. Only our own mods are committed.
+overrides/mods/*.jar
+!overrides/mods/bandits-*.jar
+!overrides/mods/realism-*.jar
+!overrides/mods/sapper_zombie-*.jar
 # Build output
 /build/
